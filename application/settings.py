@@ -1,5 +1,4 @@
 from flask import Flask
-import os
 
 import config
 from application import (
@@ -27,6 +26,7 @@ def import_models():
     from application.models import (
         user
     )
+
 
 def initialize_flask_app():
     # Initialize the core application.
