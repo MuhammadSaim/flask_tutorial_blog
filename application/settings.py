@@ -9,10 +9,12 @@ from application import (
 
 def register_blueprints(app):
     from application.controllers import (
-        home
+        home,
+        auth
     )
 
     app.register_blueprint(home.controller)
+    app.register_blueprint(auth.controller)
 
 
 def initialize_plugins(app):

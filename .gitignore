@@ -320,4 +320,5 @@ pip-selfcheck.json
 flask_blog
 .idea
 mix-manifest.json
+node_modules
 # End of https://www.toptal.com/developers/gitignore/api/flask,visualstudiocode,pycharm,virtualenv

@@ -15,6 +15,12 @@ class User(db.Model):
         nullable=False
     )
 
+    username = db.Column(
+        db.String(255),
+        nullable=False,
+        unique=True,
+    )
+
     email = db.Column(
         db.String(255),
         unique=True,
